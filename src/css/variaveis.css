@@ -1,0 +1,5 @@
+:root {
+  --bg-color-body : hsla(240, 5%, 7%, 1);
+  --color-gradient: 90deg, #AE2EFA, #CF21FB, #8317FF;
+  --bg-color-sections: #262629;
+}

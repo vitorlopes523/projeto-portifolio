@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Portifólio</title>
+
+    <link
+      rel="shortcut icon"
+      href="./src/imagens/vitormatos.jpg"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/variaveis.css" />
+    <link rel="stylesheet" href="./src/css/menu.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header-menu" id="home">
+        <div class="identificacao">
+          <div class="logo">
+            <img
+              src="./src/imagens/vitormatos.jpg"
+              alt="Imagem de Vitor Lopes"
+            />
+          </div>
+          <h1 class="my-name">Vitor Lopes de Matos</h1>
+          <h3 class="atuacao">Desenvolvedor Front-end Júnior</h3>
+        </div>
+
+        <nav class="navegacao">
+          <input type="checkbox" id="menu-hamburguer" />
+
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+
+          <ul class="list-menus">
+            <li class="item-menu">
+              <a href="#home">Casa</a>
+            </li>
+            <li class="item-menu">
+              <a href="#about">Sobre</a>
+            </li>
+            <li class="item-menu">
+              <a href="#projects">Projetos</a>
+            </li>
+            <li class="item-menu">
+              <a href="#network">Redes</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="about" id="about">
+        <div>
+          <h2>Sobre</h2>
+          <p>Saiba mais sobre mim</p>
+          <div class="about-me">
+            <p>
+              Olá, sou Vitor Lopes de Matos, venho estudando sobre
+              desenvolvimento front-end e acredito que estou preparado para
+              aplicar meus conhecimentos dentro de uma empresa e ajudá-la da
+              melhor forma. Atualmente estou em constante contato com as
+              tecnologias HTML, CSS, JavaScript e React, e tenho o objetivo de
+              sempre está evoluindo dentro da área e disposto a aprender novas
+              tecnologias.
+            </p>
+            <img src="./src/imagens/vitorl.jpg" alt="Imagem de Vitor Lopes" />
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <div>
+          <h2>Meus projetos</h2>
+          <p>Aqui estão meus projetos</p>
+          <ul class="list-projects">
+            <li>
+              <a href="#">
+                <img src="./src/imagens/flex.png" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./src/imagens/qrcode.jpg" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./src/imagens/R.gif" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img
+                  src="./src/imagens/product-preview-card-component.jpg"
+                  alt=""
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="network" id="network">
+        <div>
+          <h2>Minhas redes</h2>
+          <p>Se conecte comigo agora mesmo!</p>
+          <ul class="lista-de-redes">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/vitor-lopes-de-matos-657261230"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/vitor_lm13/" target="_blank"
+                ><i class="fa-brands fa-instagram-square"></i
+              ></a>
+            </li>
+
+            <li>
+              <a
+                href="https://www.facebook.com/vitor.lopesdematos.37"
+                target="_blank"
+                ><i class="fa-brands fa-facebook-square"></i
+              ></a>
+            </li>
+
+            <li>
+              <a href="https://github.com/vitorlopes523" target="_blank"
+                ><i class="fa-brands fa-github-square"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/f7745dd027.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

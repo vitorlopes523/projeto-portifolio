@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2? família=Montserrat:wght@400;900&display=swap');
+
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background: var(--bg-color-body) url('../imagens/Fundo.png') no-repeat top center;
+  background-size: 100% auto;
+  color: #fff;
+}
+
+.header {
+  display: flex;
+  padding: 20px 10px 30px 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header .header-menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .header-menu .identificacao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.header .header-menu .identificacao .atuacao {
+  color: rgba(243, 235, 235, 0.836);
+  font-weight: 400;
+}
+
+.header .header-menu .identificacao .logo {
+  display: flex;
+  background-image: linear-gradient(var(--color-gradient));
+  border-radius: 50%;
+  margin-right: 7px;
+  transition: transform 0.3s;
+}
+
+.header .header-menu .identificacao .logo:hover {
+  transform: scale(1.1);
+}
+
+.header .header-menu .identificacao .logo img {
+  border-radius: 50%;
+  padding: 4px;
+  width: 120px;
+  height: 120px;
+  transition: transform 0.3s;
+}
+
+/* CONFIGURAÇÕES GERAIS DAS SECTIONS */
+
+.container {
+  max-width: 900px;
+  width: 90%;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-bottom: 20px;
+}
+
+.container section {
+  background-image: linear-gradient(var(--color-gradient));
+  border-radius: 10px 10px 20px 20px;
+  padding-top: 10px;
+}
+
+.container section div {
+  background-color: var(--bg-color-sections);
+  padding: 20px 20px;
+  border-radius: 10px;
+}
+
+.container section div h2,p {
+  margin-bottom: 20px;
+}
+
+.container section ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.container section ul li a img {
+  border-radius: 10px;
+  border: 2px solid blueviolet;
+  transition: transform 0.3s;
+}
+
+.container section ul li a img:hover {
+  transform: scale(1.1);
+}
+
+/* CONFIGURAÇÕES ESPECÍFICAS DAS SECTIONS */
+
+.container .about div .about-me {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.container .about div .about-me p, .container .about div .sobre-mim img {
+  width: 50%;
+}
+
+.container .about div .about-me p {
+  text-align: justify;
+  line-height: 30px;
+}
+
+.container .about div .about-me img {
+  max-width: 250px;
+  max-height: 250px;
+  border-radius: 10px;
+  border: 2px solid blueviolet;
+}
+
+.container .projects div .list-projects li a img {
+  width: 200px;
+  height: 200px;
+}
+
+.container .network .lista-de-redes li a {
+  font-size: 50px;
+}
+
+.container .network .lista-de-redes li a i {
+  border-radius: 10px;
+  color: white;
+  padding: 2px 5px;
+  transition: transform 0.3s;
+}
+
+.container .network .lista-de-redes li a i:hover {
+  transform: scale(1.1);
+  background-image: linear-gradient(var(--color-gradient));
+}
+
+/* RESPONSIVO */
+@media (max-width: 1000px) {
+  .container section ul {
+    justify-content: center;
+    
+  }
+}
+
+@media (max-width: 666px) {
+  .container .about div .about-me {
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+  }
+  
+  .container .about div .about-me p {
+    width: 100%;
+  }
+
+  .container .about div .about-me img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 810px) {
+  .header .header-menu {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header .header-menu .identificacao .header-logo {
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 5px;
+  }
+
+  .header .header-menu .identificacao .header-logo .logo {
+    margin-bottom: 10px;
+  }
+
+  .container section ul {
+    justify-content: center;
+  }
+
+  .container .projects div .list-projects li a img {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+@media (max-width: 400px) {
+  .container section div {
+    padding: 10px 6px;
+    border-radius: 10px;
+  }
+}
+
+
+
