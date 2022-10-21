@@ -71,7 +71,7 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .container section div {
     padding: 10px 6px;
     border-radius: 10px;
@@ -84,14 +84,14 @@
   }
 
   .container .skills div .list-skills li {
-    width: 140px;
+    width: 130px;
     font-size: 12px;
   }
 
 
   .container .skills div .list-skills li a img {
-    width: 140px;
-    height: 140px;
+    width: 130px;
+    height: 130px;
   }
 
   .container .projects div .list-projects li a img {
