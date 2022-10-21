@@ -219,18 +219,32 @@ body {
   height: 200px;
 }
 
-.container .network .lista-de-redes li a {
-  font-size: 50px;
+.footer {
+  padding: 20px 0;
+  text-align: center;
 }
 
-.container .network .lista-de-redes li a i {
-  border-radius: 10px;
-  color: white;
-  padding: 2px 5px;
-  transition: transform 0.3s;
+.footer .lista-de-redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
-.container .network .lista-de-redes li a i:hover {
-  transform: scale(1.1);
-  background-image: linear-gradient(var(--color-gradient));
+.footer .lista-de-redes li{
+  margin: 0 20px;
+  font-size: 30px;
 }
+
+.footer .lista-de-redes li a {
+  color: #fff;
+}
+
+.footer .lista-de-redes li a:hover {
+  color: blueviolet;
+}
+
+.footer p {
+  font-size: 10px;
+}
+
