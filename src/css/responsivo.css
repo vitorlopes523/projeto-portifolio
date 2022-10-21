@@ -1,0 +1,57 @@
+/* RESPONSIVO */
+@media (max-width: 1000px) {
+  .container section ul {
+    justify-content: center;
+    
+  }
+}
+
+@media (max-width: 666px) {
+  .container .about div .about-me {
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+  }
+  
+  .container .about div .about-me p {
+    width: 100%;
+  }
+
+  .container .about div .about-me img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 810px) {
+  .header .header-menu {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header .header-menu .identificacao .header-logo {
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 5px;
+  }
+
+  .header .header-menu .identificacao .header-logo .logo {
+    margin-bottom: 10px;
+  }
+
+  .container section ul {
+    justify-content: center;
+  }
+
+  .container .projects div .list-projects li a img {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+@media (max-width: 400px) {
+  .container section div {
+    padding: 10px 6px;
+    border-radius: 10px;
+  }
+}

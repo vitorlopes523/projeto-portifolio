@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./src/css/variaveis.css" />
     <link rel="stylesheet" href="./src/css/menu.css" />
     <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/responsivo.css">
   </head>
 
   <body>
@@ -30,6 +31,23 @@
           </div>
           <h1 class="my-name">Vitor Lopes de Matos</h1>
           <h3 class="atuacao">Desenvolvedor Front-end Júnior</h3>
+
+          <nav>
+            <ul class="redes">
+              <li>
+                <a href="#" target="_blank">
+                  <i class="fa-solid fa-file"></i>
+                  Currículo</a
+                >
+              </li>
+              <li>
+                <a href="https://github.com/vitorlopes523" target="_blank">
+                  <i class="fa-brands fa-github-square"></i>
+                  GitHub</a
+                >
+              </li>
+            </ul>
+          </nav>
         </div>
 
         <nav class="navegacao">
@@ -49,11 +67,14 @@
               <a href="#about">Sobre</a>
             </li>
             <li class="item-menu">
-              <a href="#projects">Projetos</a>
+              <a href="#skills">Habilidades</a>
             </li>
             <li class="item-menu">
-              <a href="#network">Redes</a>
+              <a href="#projects">Projetos</a>
             </li>
+            <!-- <li class="item-menu">
+              <a href="#network">Redes</a>
+            </li> -->
           </ul>
         </nav>
       </div>
@@ -76,6 +97,62 @@
             </p>
             <img src="./src/imagens/vitorl.jpg" alt="Imagem de Vitor Lopes" />
           </div>
+        </div>
+      </section>
+
+      <section class="skills" id="skills">
+        <div>
+          <h2>Minhas habilidades</h2>
+          <p>Tecnologias que tenho conhecimento</p>
+          <ul class="list-skills">
+            <li>
+              <a href="https://www.w3schools.com/html/" target="_blank">
+                <img
+                  class="html"
+                  src="./src/imagens/html.png"
+                  alt="Logo HTML"
+                  title="HyperText Markup Language"
+                />
+              </a>
+              <h3 class="html">HTML</h3>
+              <p>Linguagem de Marcação de HiperTexto</p>
+            </li>
+            <li>
+              <a href="https://www.w3schools.com/Css/" target="_blank">
+                <img
+                  class="css"
+                  src="./src/imagens/css.png"
+                  alt="Logo CSS"
+                  title="Cascading Style Sheets"
+                />
+              </a>
+              <h3 class="css">CSS</h3>
+              <p>Linguagem de Estilização</p>
+            </li>
+            <li>
+              <a href="https://www.w3schools.com/js/DEFAULT.asp" target="_blank">
+                <img
+                  class="js"
+                  src="./src/imagens/js.png"
+                  alt="logo JavaScript"
+                />
+              </a>
+              <h3 class="js">JavaScript</h3>
+              <p>Linguagem de Programação</p>
+            </li>
+            <li>
+              <a href="https://www.w3schools.com/react/" target="_blank">
+                <img
+                  class="react"
+                  src="./src/imagens/react.png"
+                  alt="logo React"
+                  title="Biblioteca JavaScript"
+                />
+              </a>
+              <h3 class="react">React</h3>
+              <p>Biblioteca JavaScript</p>
+            </li>
+          </ul>
         </div>
       </section>
 
@@ -111,7 +188,7 @@
         </div>
       </section>
 
-      <section class="network" id="network">
+      <!-- <section class="network" id="network">
         <div>
           <h2>Minhas redes</h2>
           <p>Se conecte comigo agora mesmo!</p>
@@ -145,8 +222,40 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
+
+    <footer class="footer">
+      <ul class="lista-de-redes">
+        <li>
+          <a
+            href="https://www.linkedin.com/in/vitor-lopes-de-matos-657261230"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </li>
+
+        <li>
+          <a href="https://www.instagram.com/vitor_lm13/" target="_blank"
+            ><i class="fa-brands fa-instagram-square"></i
+          ></a>
+        </li>
+
+        <li>
+          <a
+            href="https://www.facebook.com/vitor.lopesdematos.37"
+            target="_blank"
+            ><i class="fa-brands fa-facebook-square"></i
+          ></a>
+        </li>
+
+        <li>
+          <a href="https://github.com/vitorlopes523" target="_blank"
+            ><i class="fa-brands fa-github-square"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
     <script
       src="https://kit.fontawesome.com/f7745dd027.js"
       crossorigin="anonymous"
