@@ -141,20 +141,21 @@ body {
   display: flex;
   justify-content: space-evenly;
   gap: 20px;
+  padding: 0 10px;
 }
 
-.container .about div .about-me p, .container .about div .about-me img {
+.container .about div .about-me .texto, .container .about div .about-me img {
   width: 50%;
+  padding: 0;
 }
 
-.container .about div .about-me p {
+.container .about div .about-me .texto p {
   text-align: justify;
   line-height: 30px;
+  margin-bottom: 3px;
 }
 
 .container .about div .about-me img {
-  max-width: 250px;
-  max-height: 250px;
   border-radius: 10px;
   border: 2px solid blueviolet;
 }
@@ -164,7 +165,7 @@ body {
   flex-direction: column;
   text-align: center;
   gap: 10px;
-  max-width: 200px;
+  width: 200px;
 }
 
 .container .skills div .list-skills li {
@@ -220,7 +221,6 @@ body {
 }
 
 .footer {
-  padding: 20px 0;
   text-align: center;
 }
 
@@ -229,6 +229,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
+  padding: 20px 0;
 }
 
 .footer .lista-de-redes li{

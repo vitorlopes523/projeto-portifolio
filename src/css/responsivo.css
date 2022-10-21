@@ -2,24 +2,18 @@
 @media (max-width: 1000px) {
   .container section ul {
     justify-content: center;
-    
-  }
-}
-
-@media (max-width: 666px) {
-  .container .about div .about-me {
-    flex-wrap: wrap;
-    flex-direction: column;
-    gap: 0;
-    align-items: center;
-  }
-  
-  .container .about div .about-me p {
-    width: 100%;
   }
 
   .container .about div .about-me img {
-    width: 100%;
+    max-width: 400px;
+    max-height: 390px;
+  }
+}
+
+@media (max-width: 840px) {
+  .container .about div .about-me img {
+    max-width: 350px;
+    max-height: 330px;
   }
 }
 
@@ -49,9 +43,34 @@
   }
 }
 
+@media (max-width: 666px) {
+  .container .about div .about-me {
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+  }
+  
+  .container .about div .about-me .texto {
+    width: 100%;
+  }
+
+  .container .about div .about-me img {
+    width: 100%;
+    max-width: 500px;
+    max-height: 490px;
+  }
+}
+
 @media (max-width: 400px) {
   .container section div {
     padding: 10px 6px;
     border-radius: 10px;
+  }
+
+  .container .about div .about-me img {
+    width: 100%;
+    max-width: 300px;
+    max-height: 300px;
   }
 }
