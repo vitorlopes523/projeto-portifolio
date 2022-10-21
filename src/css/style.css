@@ -239,7 +239,8 @@ body {
 }
 
 .footer .lista-de-redes li a:hover {
-  color: blueviolet;
+  padding: 1px 3px;
+  background-image: linear-gradient(var(--color-gradient));
 }
 
 .footer p {
