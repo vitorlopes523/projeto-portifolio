@@ -164,12 +164,9 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
+  font-size: 14px;
   gap: 10px;
   width: 200px;
-}
-
-.container .skills div .list-skills li {
-  font-size: 14px;
 }
 
 .container .skills div .list-skills li .html {
