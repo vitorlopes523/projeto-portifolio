@@ -30,6 +30,10 @@ body {
   gap: 5px;
 }
 
+.identificacao .my-name {
+  text-align: center;
+}
+
 .header .header-menu .identificacao .atuacao {
   color: rgba(243, 235, 235, 0.836);
   font-weight: 400;
