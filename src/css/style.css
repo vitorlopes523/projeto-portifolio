@@ -223,6 +223,7 @@ body {
 .container .projects div .list-projects li:hover .project {
   opacity: 0.1;
   transform: scale(1.1);
+  transition: 0.3s ease-in-out;
 }
 
 .container .projects div .list-projects li .project {
@@ -247,6 +248,7 @@ body {
 }
 
 .container .projects div .list-projects li:hover .descricao {
+  transition: 0.3s ease-in-out;
   display: block;
 }
 
@@ -265,6 +267,10 @@ body {
   padding-right: 5px;
 }
 
+.container .projects div .list-projects li .projeto-pokemon {
+  background-image: url('../imagens/projeto-pokemon.gif');
+}
+
 .container .projects div .list-projects li .projeto-redes-sociais {
   background-image: url('../imagens/projeto-redes-sociais.gif');
 }
@@ -281,9 +287,8 @@ body {
   background-image: url('../imagens/projeto-landing-page.gif');
 }
 
-.container .projects div .list-projects li a img {
-  width: 200px;
-  height: 200px;
+.container .projects div .list-projects li .projeto-beDev-bemol {
+  background-image: url('../imagens/projeto-beDev-bemol.gif');
 }
 
 .footer {
