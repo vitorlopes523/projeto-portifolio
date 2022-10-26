@@ -137,30 +137,30 @@ body {
 
 /* CONFIGURAÇÕES ESPECÍFICAS DAS SECTIONS */
 
-.container .about div .about-me {
+.about div .about-me {
   display: flex;
   justify-content: space-evenly;
   gap: 20px;
   padding: 0 10px;
 }
 
-.container .about div .about-me .texto, .container .about div .about-me img {
+.about div .about-me .texto, .about div .about-me img {
   width: 50%;
   padding: 0;
 }
 
-.container .about div .about-me .texto p {
+.about div .about-me .texto p {
   text-align: justify;
   line-height: 30px;
   margin-bottom: 3px;
 }
 
-.container .about div .about-me img {
+.about div .about-me img {
   border-radius: 10px;
   border: 2px solid blueviolet;
 }
 
-.container .skills div .list-skills li {
+.skills div .list-skills li {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -169,56 +169,55 @@ body {
   width: 200px;
 }
 
-.container .skills div .list-skills li .html {
+.skills div .list-skills li .html {
   color: coral;
 }
 
-.container .skills div .list-skills li .css {
+.skills div .list-skills li .css {
   color: blue;
 }
 
-.container .skills div .list-skills li .js {
+.skills div .list-skills li .js {
   color: yellow;
 }
 
-.container .skills div .list-skills li .react {
+.skills div .list-skills li .react {
   color: aqua;
 }
 
-.container .skills div .list-skills li a img {
+.skills div .list-skills li a img {
   width: 180px;
   height: 180px;
   border-radius: 50%;
   border: none;
   box-shadow: -2px -1px 1px 1px gray;
 }
-.container .skills div .list-skills li a img:hover {
+.skills div .list-skills li a img:hover {
   box-shadow: 0 0;
 }
 
-.container .skills div .list-skills li a img.html:hover {
+.skills div .list-skills li a img.html:hover {
   border: 5px solid coral;
 }
 
-.container .skills div .list-skills li a img.css:hover {
+.skills div .list-skills li a img.css:hover {
   border: 5px solid blue;
 }
 
-.container .skills div .list-skills li a img.js:hover {
+.skills div .list-skills li a img.js:hover {
   border: 5px solid yellow;
 }
 
-.container .skills div .list-skills li a img.react:hover {
+.skills div .list-skills li a img.react:hover {
   border: 5px solid aqua;
 }
 
-.container .projects div .list-projects li {
+.projects div .list-projects li {
   display: flex;
   flex-direction: column;
-  transition: opacity 0.3s ease-in-out,  transform 0.3s ease-in-out;
 }
 
-.list-projects li .info-project {
+.projects div .list-projects li .info-project {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -226,9 +225,10 @@ body {
   height: 180px;
   position: relative;
   padding: 0;
+  transition: 0.3s ease-in-out;
 }
 
-.container .projects div .list-projects li .info-project .project {
+.projects div .list-projects li .info-project .project {
   width: 180px;
   height: 180px;
   background-position: center;
@@ -239,13 +239,13 @@ body {
   margin-bottom: 10px;
 }
 
-.container .projects div .list-projects li .info-project:hover .project{
+.projects div .list-projects li .info-project:hover .project{
   opacity: 0.1;
   transform: scale(1.1);
   transition: 0.3s ease-in-out;
 }
 
-.container .projects div .list-projects li .descricao {
+.projects div .list-projects li .info-project .descricao {
   width: 95%;
   text-align: justify;
   margin-bottom: 3px;
@@ -253,47 +253,46 @@ body {
   display: none;
 }
 
-.container .projects div .list-projects li .info-project:hover .descricao {
-  transition: 0.3s ease-in-out;
+.projects div .list-projects li .info-project:hover .descricao {
   display: block;
 }
 
-.container .projects div .list-projects li .link-projeto {
+.projects div .list-projects li .link-projeto {
   color: #fff;
   margin-bottom: 3px;
   transition: 0.3s ease-in-out;
 }
 
-.container .projects div .list-projects li .link-projeto:hover {
+.projects div .list-projects li .link-projeto:hover {
   color: blueviolet;
 }
 
-.container .projects div .list-projects li .link-projeto i {
+.projects div .list-projects li .link-projeto i {
   font-size: 14px;
   padding-right: 5px;
 }
 
-.container .projects div .list-projects li .projeto-pokemon {
+.projects div .list-projects li .projeto-pokemon {
   background-image: url('../imagens/projeto-pokemon.gif');
 }
 
-.container .projects div .list-projects li .projeto-redes-sociais {
+.projects div .list-projects li .projeto-redes-sociais {
   background-image: url('../imagens/projeto-redes-sociais.gif');
 }
 
-.container .projects div .list-projects li .projeto-nlw-esports {
+.projects div .list-projects li .projeto-nlw-esports {
   background-image: url('../imagens/projeto-nlw-esports.gif');
 }
 
-.container .projects div .list-projects li .projeto-mini-portifolio {
+.projects div .list-projects li .projeto-mini-portifolio {
   background-image: url('../imagens/projeto-mini-portifolio.gif');
 }
 
-.container .projects div .list-projects li .projeto-landing-page {
+.projects div .list-projects li .projeto-landing-page {
   background-image: url('../imagens/projeto-landing-page.gif');
 }
 
-.container .projects div .list-projects li .projeto-beDev-bemol {
+.projects div .list-projects li .projeto-beDev-bemol {
   background-image: url('../imagens/projeto-beDev-bemol.gif');
 }
 
