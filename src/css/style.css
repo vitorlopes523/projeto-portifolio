@@ -121,6 +121,7 @@ body {
 
 .container section ul {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
 }
@@ -185,12 +186,20 @@ body {
   color: aqua;
 }
 
+.skills div .list-skills li .git {
+  color: rgba(216, 91, 46, 0.952);
+}
+
+.skills div .list-skills li .github {
+  color: white;
+}
+
 .skills div .list-skills li a img {
   width: 180px;
   height: 180px;
   border-radius: 50%;
   border: none;
-  box-shadow: -2px -1px 1px 1px gray;
+  box-shadow: 2px 2px 4px black;
 }
 .skills div .list-skills li a img:hover {
   box-shadow: 0 0;
@@ -210,6 +219,14 @@ body {
 
 .skills div .list-skills li a img.react:hover {
   border: 5px solid aqua;
+}
+
+.skills div .list-skills li a img.git:hover {
+  border: 5px solid rgba(216, 91, 46, 0.952);
+}
+
+.skills div .list-skills li a img.github:hover {
+  border: 5px solid white;
 }
 
 .projects div .list-projects li {

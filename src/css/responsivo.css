@@ -1,9 +1,5 @@
 /* RESPONSIVO */
 @media (max-width: 1000px) {
-  .container section ul {
-    justify-content: center;
-  }
-
   .container .about div .about-me img {
     max-width: 400px;
     max-height: 390px;
@@ -31,10 +27,6 @@
 
   .header .header-menu .identificacao .header-logo .logo {
     margin-bottom: 10px;
-  }
-
-  .container section ul {
-    justify-content: center;
   }
 
   .container .projects div .list-projects li a img {
@@ -71,7 +63,7 @@
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 480px) {
   .container section div {
     padding: 10px 6px;
     border-radius: 10px;
